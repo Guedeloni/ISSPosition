@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <title>ISS Position</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">Station spatiale internationale - ISS</h1>
+        <h3 id="date" class="text-center"></h3>
+        <h3 id="position" class="text-center"></h3>
+    </header>
+
+    <div class="margin-top-5 flex space-evenly items-center">
+        <div id="map"></div>
+        <div id="people" class="flex column space-evenly">
+            <h3></h3>
+            <ul></ul>
+            <a class="font-size-07"
+                href="http://open-notify.org/">(CC) by Open Notify
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

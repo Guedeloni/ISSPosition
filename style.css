@@ -1,0 +1,67 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+    color:lemonchiffon;
+    background-image: url("images/earth.jpg");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* POSITION */
+.text-center {
+    text-align: center
+}
+
+.margin-top-5 {
+    margin-top: 5em;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.content-center {
+    align-content: center;
+}
+
+
+/* DIMENSION */
+.font-size-07 {
+    font-size: 0.7rem;
+}
+
+
+/* COMPOSANT */
+#map, #people {
+    width: 40vw;
+    height: 50vh;
+    /* margin-left: 25vw; */
+    border: none;
+    border-radius: 1em;
+    opacity: 0.95;
+    box-shadow: 0em 0em 1em rgb(78, 117, 169);
+}
+#people {
+    padding-left: 2em;
+    color: rgb(78, 117, 169);
+    background-color:lightblue;
+}
