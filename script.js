@@ -31,6 +31,7 @@ jQuery(document).ready(
         );
     }
 )
+
 setInterval(call, 3000);
 
 function displayInfos(data) {
